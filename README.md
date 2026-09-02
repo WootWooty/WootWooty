@@ -6,8 +6,8 @@ Platform / DevOps engineer. Go and Python. Linux infrastructure.
 
 ## Projects
 
-**Breviary** — Declarative runbook automation engine. Ops procedures codified as versioned specs.  
-CEL policy engine, SQLite WAL journal, GitOps-native synchronization.  
+**Breviary** — Declarative runbook automation engine. Ops procedures codified as versioned specs.
+CEL policy engine, SQLite WAL journal, GitOps-native synchronization.
 Single binary, zero runtime dependencies.
 
 ---
@@ -26,7 +26,7 @@ Single binary, zero runtime dependencies.
 
 ## Tech stack
 
-Go · Python · Bash · Linux · Docker · SQLite · GitHub Actions  
+Go · Python · Bash · Linux · Docker · SQLite · GitHub Actions
 Prometheus · Grafana · systemd · WireGuard
 
 ---
