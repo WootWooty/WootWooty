@@ -1,39 +1,38 @@
 # Egor Kondrashov
 
-Platform / DevOps engineer. Go and Python. Linux infrastructure.
+AI Agent Engineer • RAG & CV
+
+Building production AI agents, retrieval systems, and computer vision solutions for business.
 
 ---
 
-## Projects
+## 🔭 Currently
 
-**Breviary** — Declarative runbook automation engine. Ops procedures codified as versioned specs.
-CEL policy engine, SQLite WAL journal, GitOps-native synchronization.
-Single binary, zero runtime dependencies.
-
----
-
-## What I work on
-
-**Automation infrastructure** — CI/CD pipelines, system-level reliability, observability stacks.
-
-**Local LLM operations** — Ollama, ComfyUI, CUDA on WSL2. Multi-model inference on consumer GPU, no cloud dependency.
-
-**Telegram bots** — image generation, agent orchestration, task automation.
-
-**Agent infrastructure** — provider failover, health monitoring, automated recovery.
+- **Business AI agents** — autonomous Telegram-native agents with memory, tool use, multi-step reasoning, and approval gates
+- **RAG at scale** — hybrid retrieval (dense + sparse + KG), multilingual, optimised for constrained hardware
+- **Industrial computer vision** — custom fine-tuned models for defect detection, progress monitoring, thermal analysis
+- **Fine-tuning pipelines** — domain adaptation of LLMs and vision models with reproducible evaluation
 
 ---
 
-## Tech stack
+## 🛠️ Core stack
 
-Go · Python · Bash · Linux · Docker · SQLite · GitHub Actions
-Prometheus · Grafana · systemd · WireGuard
+| Domain | Technologies |
+|--------|-------------|
+| **Agent systems** | Python, LangGraph, FastAPI, aiogram / grammy |
+| **RAG & memory** | Hybrid retrieval (FTS + vectors + KG), SQLite, Chroma |
+| **LLM inference** | Ollama, llama.cpp, OpenRouter, custom serving |
+| **Computer vision** | YOLO, OpenCV, thermal/RGB fusion, custom datasets |
+| **Fine-tuning** | LoRA / QLoRA, Axolotl, Unsloth, HuggingFace TRL |
+| **Infrastructure** | Docker, systemd, Hermes Agent, GitHub Actions, Linux (WSL2) |
+| **Orchestration** | Cron-based monitoring, GitOps, systemd service management |
+| **Languages** | Python • TypeScript • Go • SQL |
 
 ---
 
-## Currently learning
+## 📌 Approach
 
-Kubernetes (CKA), AWS (VPC/EC2/EKS)
+Practical, cost-conscious engineering. Every component must justify its resource footprint — whether it's a LoRA adapter running on 12GB VRAM or a multi-agent pipeline on a $5 VPS.
 
 ---
 
